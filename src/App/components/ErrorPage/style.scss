@@ -1,0 +1,16 @@
+.errorWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.secondComp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    align-items: center;
+}

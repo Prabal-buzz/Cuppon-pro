@@ -1,0 +1,115 @@
+.boxCard {
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: -25px;
+}
+.cardContent {
+  width: 100% !important;
+  margin-left: -0.65rem;
+  margin-right: -0.5rem;
+  padding: 0rem !important;
+  border-radius: 5px;
+}
+
+.BoxCardWrapper {
+  min-width: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*
+.MuiCard-root {
+  width: fit-content;
+  height: 373px;
+  box-shadow: 0px 3px 6px #c5c5c5 !important;
+  margin: 0rem !important;
+  overflow: initial !important;
+
+  // border: 20px solid pink !important;
+  // border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png) !important;
+  // border-image-slice: 20 22 !important;
+  // border-image-repeat: round !important;
+}
+
+// left half circle
+.MuiPaper-elevation0 {
+  height: 1rem;
+  width: 0.66rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 0rem;
+  border-width: 1px 1px 1px 1.5px;
+  // border-color: #eeeeee #eeeeee #eeeeee white;
+  border-style: solid;
+  margin-left: -3.3px;
+  z-index: 99 !important;
+  bottom: 2rem;
+  margin-top: 17.2rem;
+
+  top: 8rem;
+  left: -6.5rem;
+  box-shadow: 1.6px 0px 2px #c5c5c5 !important;
+}
+*/
+// right half part
+.circleRight {
+  // position: relative;
+  // background: transparent !important;
+  // height: 1rem;
+  // width: 0.5rem;
+  // border-top-left-radius: 0rem;
+  // border-top-right-radius: 2rem;
+  // border-bottom-right-radius: 2rem;
+  // border-bottom-left-radius: 0rem;
+  // border-width: 1px 1px 1px 1.4px;
+  // border-color: #eeeeee #eeeeee #eeeeee white;
+  // border-style: solid;
+  // z-index: 99 !important;
+  // box-shadow: 0px 0px 0px transparent !important;
+  // transform: rotate(180deg);
+  // margin-right: -0.08rem;
+  // top: 2rem;
+
+  height: 1rem;
+  width: 0.64rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 0rem;
+  border-width: 1px 1px 1px 1.5px;
+  // border-color: #eeeeee #eeeeee #eeeeee white;
+  border-style: solid;
+  margin-left: -1.3px;
+  z-index: 99 !important;
+  box-shadow: none !important;
+  transform: rotate(180deg);
+  margin-right: -0.25rem !important;
+  position: relative;
+  top: 17.2rem;
+
+  box-shadow: 1.6px 0px 2px #c5c5c5 !important;
+}
+.MuiBox-root-1 {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+.cardDots {
+  position: absolute;
+  // width: 15rem;
+  z-index: 10;
+  padding: 2rem;
+  margin-top: 15.2rem;
+  hr.new2 {
+    border: 1px dashed #707070;
+  }
+}
+
+.cardBottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,51 @@
+.FashionCardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storeAvatar {
+  margin-left: 20px;
+  margin-top: 9px;
+}
+
+.topWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 390px;
+  height: 61px;
+  background-color: #292929;
+}
+
+.midWrapper {
+  display: flex;
+}
+
+.info {
+  width: 164px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.info h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #474747;
+  
+}
+
+// .DescriptionWrapper {
+//   text-align: left;
+//   width: 100%;
+//   font-size: 12px !important;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   display: -webkit-box;
+//   -webkit-line-clamp: 7;
+//   -webkit-box-orient: vertical;
+// }
+
+// .makeStyles-rounded-1 {
+//     margin-top: 27px;
+// }
